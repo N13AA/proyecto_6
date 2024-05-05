@@ -10,7 +10,7 @@ String? get routeName => _routeName;
 SplashController(this._LocationPermission);
 Future <void> checkPermission () async{
 final isGranted= await _LocationPermission.isGranted;
-_routeName  = isGranted? Routes.HOME:Routes.PERMISSIONS;
+_routeName  = isGranted? Routes.NAME:Routes.PERMISSIONS;
 notifyListeners();
 }
 }

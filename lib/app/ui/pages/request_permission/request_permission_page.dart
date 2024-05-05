@@ -81,7 +81,7 @@ class _RequestPermissionPageState extends State<RequestPermissionPage> with Widg
    }
   }
   void _gotohome(){
-Navigator.pushReplacementNamed(context, Routes.HOME);
+Navigator.pushReplacementNamed(context, Routes.NAME);
   }
   @override
   void dispose() {
